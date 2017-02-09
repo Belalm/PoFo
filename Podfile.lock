@@ -1,12 +1,18 @@
 PODS:
+  - Segmentio (2.1.2)
+  - TGLParallaxCarousel (0.2.1)
   - UICircularProgressRing (1.2.1)
 
 DEPENDENCIES:
+  - Segmentio (~> 2.1)
+  - TGLParallaxCarousel
   - UICircularProgressRing
 
 SPEC CHECKSUMS:
+  Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
+  TGLParallaxCarousel: 7736edf9e26a3f08f32d0a24fcb0c93edc8253ad
   UICircularProgressRing: 8eca1c123d323dcef59ba3ca86b81c8d7e751ae4
 
-PODFILE CHECKSUM: 4a9f8442de94d2755aba7e5872e9bd6f8d77c6e8
+PODFILE CHECKSUM: 34b4166af317ee93601969fec7483fa45d65b4ed
 
 COCOAPODS: 1.2.0

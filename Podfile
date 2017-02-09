@@ -6,6 +6,7 @@ target 'PoFo' do
   use_frameworks!
 
   pod 'UICircularProgressRing'
-  # Pods for PoFo
+  pod 'Segmentio', '~> 2.1'
+  pod 'TGLParallaxCarousel'
 
 end
