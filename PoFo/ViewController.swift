@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     }
     
     //MARK: - hide status bar in swift3
-    
     override var prefersStatusBarHidden: Bool {
         return true
     }  

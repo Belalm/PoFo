@@ -8,5 +8,4 @@ target 'PoFo' do
 	pod 'UICircularProgressRing'
 	pod 'ILLoginKit'
 
-
 end
