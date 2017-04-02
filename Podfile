@@ -5,8 +5,8 @@ target 'PoFo' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'UICircularProgressRing'
-  pod 'Segmentio', '~> 2.1'
-  pod 'TGLParallaxCarousel'
+	pod 'UICircularProgressRing'
+	pod 'ILLoginKit'
+
 
 end

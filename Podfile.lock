@@ -1,18 +1,32 @@
 PODS:
-  - Segmentio (2.1.2)
-  - TGLParallaxCarousel (0.2.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.19.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.18.0):
+    - FBSDKCoreKit
+  - ILLoginKit (0.0.4):
+    - FBSDKLoginKit (= 4.18.0)
+    - Validator (~> 2.1.1)
   - UICircularProgressRing (1.2.1)
+  - Validator (2.1.1)
 
 DEPENDENCIES:
-  - Segmentio (~> 2.1)
-  - TGLParallaxCarousel
+  - ILLoginKit
   - UICircularProgressRing
 
 SPEC CHECKSUMS:
-  Segmentio: f85114993e305bd9c522952eef8c2c4db732fd17
-  TGLParallaxCarousel: 7736edf9e26a3f08f32d0a24fcb0c93edc8253ad
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
+  ILLoginKit: 52e2287858cd72ba9946c768547066ecf9e2e0e9
   UICircularProgressRing: 8eca1c123d323dcef59ba3ca86b81c8d7e751ae4
+  Validator: b1793fbfd0046097551d0edd18e2c30792d69ef5
 
-PODFILE CHECKSUM: 34b4166af317ee93601969fec7483fa45d65b4ed
+PODFILE CHECKSUM: 65c1b58ef88d13cfa3a8f4279510df800d1a3701
 
 COCOAPODS: 1.2.0
