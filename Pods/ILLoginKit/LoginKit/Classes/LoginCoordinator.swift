@@ -74,15 +74,14 @@ open class LoginCoordinator {
     }
 
     open func start() {
-        rootViewController.present(navigationController, animated: true, completion: nil)
-    }
-    
-    open func goToController(seguename: String) {
-        rootViewController.performSegue(withIdentifier: seguename, sender: send)
+        rootViewController.present(navigationController, animated: false, completion: nil)
     }
 
-    open func finish() {
-        rootViewController.dismiss(animated: true, completion: nil)
+    open func finish(controller: UIViewController) {
+        rootViewController.dismiss(animated: true) {
+            //self.navigationController.present(controller, animated: true)
+            self.navigationController.pushViewController(controller, animated: true);
+        }
     }
 
     // MARK: - Public/Subclassable methods

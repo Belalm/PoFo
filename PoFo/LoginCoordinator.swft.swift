@@ -28,7 +28,7 @@ class LoginCoordinator: ILLoginKit.LoginCoordinator {
 //        errorTintColor = UIColor(red: 253.0/255.0, green: 227.0/255.0, blue: 167.0/255.0, alpha: 1)
 //        
 //        // Change placeholder & button texts, useful for different marketing style or language.
-//        loginButtonText = "Sign In"
+        //self.loginButtonText = "Sign In"
 //        signupButtonText = "Create Account"
 //        facebookButtonText = "Login with Facebook"
 //        forgotPasswordButtonText = "Forgot password?"
@@ -43,13 +43,13 @@ class LoginCoordinator: ILLoginKit.LoginCoordinator {
     override func login(email: String, password: String) {
         print(email)
         print("Login with: email =\(email) password = \(password)")
-
+        
 //        self.rootViewController.performSegueWithIdentifier("gotoPicker", sender: send)
 //
-//        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-//        
-//        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Main") as! UserPickerController
-        super.goToController(controller: "gotoPicker")
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Main") as! UserPickerController
+        finish(controller: nextViewController)
 
 //        self.rootViewController.presentViewController(nextViewController, animated:true, completion:nil)
     }
@@ -68,10 +68,5 @@ class LoginCoordinator: ILLoginKit.LoginCoordinator {
     override func recoverPassword(email: String) {
         print("Recover password with: email =\(email)")
     }
-    
-    override func finish() {
-        super.finish()
-    }
-    
     
 }

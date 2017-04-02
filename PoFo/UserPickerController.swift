@@ -10,8 +10,13 @@ import UIKit
 
 class UserPickerController: UIViewController {
     
-    //MARK: - hide status bar in swift3
-    override var prefersStatusBarHidden: Bool {
-        return true
+    override func viewDidAppear(_ animated: Bool) {
+        
     }
+    
+    override var prefersStatusBarHidden: Bool {
+        return false
+    }
+    
+    
 }
