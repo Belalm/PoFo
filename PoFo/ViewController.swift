@@ -6,24 +6,25 @@
 //  Copyright © 2017 Belal El-Monajjed. All rights reserved.
 //
 
-import ILLoginKit
+import UIKit
+import Foundation
 
 class ViewController: UIViewController {
-    
-    lazy var loginCoordinator: LoginCoordinator = {
-        return LoginCoordinator(rootViewController: self)
-    }()
-    
-    func showLogin() {
-        loginCoordinator.start()
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+    }
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        loginCoordinator.start()
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
-    
-    //MARK: - hide status bar in swift3
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }  
 }

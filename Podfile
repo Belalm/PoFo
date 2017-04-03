@@ -6,10 +6,10 @@ target 'PoFo' do
   use_frameworks!
 
 	pod 'UICircularProgressRing'
-	pod 'ILLoginKit'
 	pod 'AASegmentedControl'
 	pod 'MIBlurPopup'
-	pod 'Stormpath', '~> 2.0'
 	pod 'Alamofire', '~> 4.0'
 	pod 'SwiftyJSON'
+    pod 'SkyFloatingLabelTextField', '~> 2.0.0'
+    
 end

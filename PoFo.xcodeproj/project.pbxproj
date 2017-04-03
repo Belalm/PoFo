@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4134588199663DAC5D87997C /* Pods_PoFo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FF28A165F6C9D9A4795C31 /* Pods_PoFo.framework */; };
-		4D3741201E9160FD00056D53 /* LoginCoordinator.swft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37411F1E9160FD00056D53 /* LoginCoordinator.swft.swift */; };
+		4D97ADC21E92F42500455DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D97ADC11E92F42500455DCA /* Assets.xcassets */; };
 		4DA1B55D1E916DFB00917900 /* UserPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1B55C1E916DFB00917900 /* UserPickerController.swift */; };
 		4DB219AE1E48F93E00BBAA4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB219AD1E48F93E00BBAA4C /* AppDelegate.swift */; };
 		4DB219B01E48F93E00BBAA4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB219AF1E48F93E00BBAA4C /* ViewController.swift */; };
 		4DB219B31E48F93E00BBAA4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB219B11E48F93E00BBAA4C /* Main.storyboard */; };
-		4DB219B51E48F93E00BBAA4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB219B41E48F93E00BBAA4C /* Assets.xcassets */; };
 		4DB219B81E48F93E00BBAA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB219B61E48F93E00BBAA4C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1BB0BE2FA2210138487F0F98 /* Pods-PoFo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoFo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoFo/Pods-PoFo.release.xcconfig"; sourceTree = "<group>"; };
-		4D37411F1E9160FD00056D53 /* LoginCoordinator.swft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swft.swift; sourceTree = "<group>"; };
+		4D97ADC11E92F42500455DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA1B55C1E916DFB00917900 /* UserPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPickerController.swift; sourceTree = "<group>"; };
 		4DB219AA1E48F93E00BBAA4C /* PoFo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoFo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB219AD1E48F93E00BBAA4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB219AF1E48F93E00BBAA4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DB219B21E48F93E00BBAA4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4DB219B41E48F93E00BBAA4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DB219B71E48F93E00BBAA4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DB219B91E48F93E00BBAA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1654FF11D95A8427BED25C /* Pods-PoFo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoFo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoFo/Pods-PoFo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,10 +84,9 @@
 				4DB219AF1E48F93E00BBAA4C /* ViewController.swift */,
 				4DA1B55C1E916DFB00917900 /* UserPickerController.swift */,
 				4DB219B11E48F93E00BBAA4C /* Main.storyboard */,
-				4DB219B41E48F93E00BBAA4C /* Assets.xcassets */,
+				4D97ADC11E92F42500455DCA /* Assets.xcassets */,
 				4DB219B61E48F93E00BBAA4C /* LaunchScreen.storyboard */,
 				4DB219B91E48F93E00BBAA4C /* Info.plist */,
-				4D37411F1E9160FD00056D53 /* LoginCoordinator.swft.swift */,
 			);
 			path = PoFo;
 			sourceTree = "<group>";
@@ -158,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB219B81E48F93E00BBAA4C /* LaunchScreen.storyboard in Resources */,
-				4DB219B51E48F93E00BBAA4C /* Assets.xcassets in Resources */,
+				4D97ADC21E92F42500455DCA /* Assets.xcassets in Resources */,
 				4DB219B31E48F93E00BBAA4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +218,6 @@
 				4DB219B01E48F93E00BBAA4C /* ViewController.swift in Sources */,
 				4DB219AE1E48F93E00BBAA4C /* AppDelegate.swift in Sources */,
 				4DA1B55D1E916DFB00917900 /* UserPickerController.swift in Sources */,
-				4D3741201E9160FD00056D53 /* LoginCoordinator.swft.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
