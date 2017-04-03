@@ -7,5 +7,9 @@ target 'PoFo' do
 
 	pod 'UICircularProgressRing'
 	pod 'ILLoginKit'
-
+	pod 'AASegmentedControl'
+	pod 'MIBlurPopup'
+	pod 'Stormpath', '~> 2.0'
+	pod 'Alamofire', '~> 4.0'
+	pod 'SwiftyJSON'
 end

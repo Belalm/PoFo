@@ -1,4 +1,6 @@
 PODS:
+  - AASegmentedControl (0.1.0)
+  - Alamofire (4.3.0)
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -12,21 +14,34 @@ PODS:
   - ILLoginKit (0.0.4):
     - FBSDKLoginKit (= 4.18.0)
     - Validator (~> 2.1.1)
+  - MIBlurPopup (0.1.1)
+  - Stormpath (2.0.1)
+  - SwiftyJSON (3.1.4)
   - UICircularProgressRing (1.2.1)
   - Validator (2.1.1)
 
 DEPENDENCIES:
+  - AASegmentedControl
+  - Alamofire (~> 4.0)
   - ILLoginKit
+  - MIBlurPopup
+  - Stormpath (~> 2.0)
+  - SwiftyJSON
   - UICircularProgressRing
 
 SPEC CHECKSUMS:
+  AASegmentedControl: ad004106e9c30f6dd5a5dd685c5d3c3db40eaf8b
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
   FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
   ILLoginKit: 52e2287858cd72ba9946c768547066ecf9e2e0e9
+  MIBlurPopup: debbc8f4f631809797140d37b5476745a61e90be
+  Stormpath: df23f5ed9837f84091015287680c41110b1f8f1c
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   UICircularProgressRing: 8eca1c123d323dcef59ba3ca86b81c8d7e751ae4
   Validator: b1793fbfd0046097551d0edd18e2c30792d69ef5
 
-PODFILE CHECKSUM: 683a483bf3d91c37d631950410c50fc7a85ef1ec
+PODFILE CHECKSUM: 77f947a1ecc4208fdf7a83915f6fd53359675322
 
 COCOAPODS: 1.2.0
