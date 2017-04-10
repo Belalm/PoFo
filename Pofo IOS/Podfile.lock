@@ -1,0 +1,33 @@
+PODS:
+  - AASegmentedControl (0.1.0)
+  - Alamofire (4.3.0)
+  - MIBlurPopup (0.1.1)
+  - SkyFloatingLabelTextField (2.0.1)
+  - SwiftIconFont (2.6.0)
+  - SwiftSpinner (1.1.0)
+  - SwiftyJSON (3.1.4)
+  - ZAlertView (0.3.4)
+
+DEPENDENCIES:
+  - AASegmentedControl
+  - Alamofire (~> 4.0)
+  - MIBlurPopup
+  - SkyFloatingLabelTextField (~> 2.0.0)
+  - SwiftIconFont
+  - SwiftSpinner
+  - SwiftyJSON
+  - ZAlertView
+
+SPEC CHECKSUMS:
+  AASegmentedControl: ad004106e9c30f6dd5a5dd685c5d3c3db40eaf8b
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  MIBlurPopup: debbc8f4f631809797140d37b5476745a61e90be
+  SkyFloatingLabelTextField: 070e749632ffd608d6fd9db3fa488a822524997c
+  SwiftIconFont: bbe1f32e1e16bac87dad8566afc80132cb8d072c
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  ZAlertView: d0e399f75e65eb1272e69777dc4a584f7edd6ea7
+
+PODFILE CHECKSUM: f5a12572f9177796dfe0e88bd388640de247c618
+
+COCOAPODS: 1.2.0
